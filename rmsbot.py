@@ -8,7 +8,7 @@ import logging
 r = praw.Reddit('GNU/Linux rms Reddit bot'
                 'https://github.com/013'
 				'')
-r.login('WhatYouAreReferring2', 'linnit')
+r.login()
 # All comments that have been replied to shall be put into the 'already_done' list
 already_done = []
 # Subreddits to find comments
